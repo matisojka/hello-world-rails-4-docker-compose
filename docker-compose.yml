@@ -13,6 +13,5 @@ web:
     - .:/helloapp
   ports:
     - "3000:3000"
-    - "8989:8989"
   links:
     - db
